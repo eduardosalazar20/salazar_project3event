@@ -21,9 +21,9 @@ In this project we are tasked to research a poem or song that represents what co
 
 # XD WireFrame Images:
 
-![Wireframes](images/XD%20Wireframe1.png)
-![Wireframes](images/XD%20WireFrame2.png)
-![Wireframes](images/XD%20WireFrame3.png)
+![Wireframes](images/Wireframe1.png)
+![Wireframes](images/Wireframe2.png)
+![Wireframes](images/Wireframe2.png)
 
 
 # XD WireFrame Link:
@@ -54,11 +54,13 @@ https://www.istockphoto.com/photos/children
 
 https://www.istockphoto.com/photo/child-and-parent-hands-holding-money-jar-donation-saving-charity-family-finance-plan-gm1216694114-354881104?phrase=charity+money&searchscope=image%2Cfilm 
 
+https://www.thinkofus.org/
 
+https://images.app.goo.gl/DGPqrMQXxqo2XN537 
 
+https://images.app.goo.gl/wYy6aJby2pRYqejq9
 
-
-
+https://images.app.goo.gl/E7SmSGXQgwe9Xv7o9
 
 
 
