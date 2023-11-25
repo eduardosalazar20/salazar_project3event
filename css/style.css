@@ -7,8 +7,7 @@
 
 
 body {
-    background-image: url(../images/Backgroundforwebsite.png);
-    background-size: 100%;
+    background-image: url(../images/EventBackground.png);
     margin: auto;  
     width: 500%;
     max-width: 1300px;
@@ -22,7 +21,19 @@ body {
 }
 
 
+#bluebackground1{
+    background-image: url(../images/Backgroundforwebsite.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+#bluebackground2{
+   
+    background-image: url(../images/EventBackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+} 
 
 
 
@@ -37,10 +48,6 @@ nav {
     margin:  auto;
     display: inline-block;
     flex-wrap: wrap;
-    
-    
-   
-    
 
 }
 
@@ -50,10 +57,9 @@ a {
     font-family: 'Orbitron', sans-serif;
     font-size: 20px;
     color:rgb(0, 187, 255);
-    margin: 25px;
+    margin: 45px;
     padding: 25px;
    
-
 }
 
 
@@ -64,11 +70,11 @@ nav a:link {
     padding: 90px;
     text-decoration: none;
    
-
 }
 
+
 nav a:hover {
-    color: rgb(0, 0, 255);
+    color: rgba(124, 209, 255, 0.775);
 }
 
 
@@ -81,21 +87,16 @@ nav a:hover {
     float: left;
     width: 250px;
     flex-wrap: wrap;
-    
-    
+
 }
 
 
 
 
 
-section{
-    text-align: center;
-    
-    
-}
 
-#gallery img{
+
+#HomeChildren img{
     width: 700px;
     float: right;
     border-color: #ffffff;
@@ -113,6 +114,7 @@ p{
     float: left;
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
+    line-height: 25px;
     margin-left: -155px;
     padding: 90px;
     width: 55%;
@@ -138,8 +140,12 @@ h1{
     
 }
 
+
+
+
+
 .parentOne {
-    width: 40%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -147,15 +153,44 @@ h1{
     justify-content: space-around;
  
  }
+ 
+ .child {
+    border: #ffffff;
+    width: 20%;
+    position: relative;
+    color: #ffffff;
+    line-height: 25px;
+ }
+ 
+ img {
+ width: 130%;
+ 
+ }
+ 
+ 
+ 
+ 
 
-
-#likes img{
-      
-    width: 10px;
-    width: 100%;
-   
-    
+h5{
+    font-size: 25px;
+    margin-top: 25px;
+     margin-bottom: 35px;
+     
 }
+
+
+h2{
+    font-size: 35px;
+    margin-top: 25px;
+     margin-bottom: 35px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -176,65 +211,21 @@ h3{
     
 }
 
-#Play{
-
-    margin-top: 15px;
-    
-    
-
-
-}
-
-
-
-
-#activity img{
-    width: 1300px;
-}
-
-
-.activity {
-  
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 17px;
-    
-
-   
-    
-}
 
 
 
 
 
-.RalphLauren{
-
-    
-    width: 30%;
-    padding: 10px;
-}
 
 
 
 
-.activity2 {
-  
-  content:"";
-  display: inline-block;
-  
-
-}
-
-
-.behance{
-    padding:15px
-}
 
 
 
-footer{
-   
-   padding: 15px;
-    
-}
+
+
+
+
+
+
