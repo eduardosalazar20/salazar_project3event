@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url(../images/BlueBackground.png);
+    
     margin: auto;  
     width: 500%;
     max-width: 1300px;
@@ -21,8 +21,8 @@ body {
 }
 
 
-#bluebackground1{
-    background-image: url(../images/Backgroundforwebsite.png);
+.bluebackground1{
+    background-image: url(../images/MainBackground.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -181,7 +181,6 @@ h5{
     font-size: 25px;
     margin-top: 25px;
      margin-bottom: 15px;
-     
 }
 
 
@@ -197,11 +196,6 @@ hr {
     border-top: 1px solid rgb(255, 255, 255);
     margin-bottom: 25px;
   }
-
-
-
-
-
 
 
 
@@ -225,13 +219,33 @@ h3{
 
 
 
+#SupportInfo{
+
+ float: right;
+ display: flex;
+flex-wrap: wrap;
+
+}
 
 
 
+#SupportUs1{
 
+    float: right;
+    display: flex;
+   flex-wrap: wrap;
+   
 
+   }
+   
+   #BuyNow1{
 
-
+    float: right;
+    display: flex;
+   flex-wrap: wrap;
+   
+   }
+   
 
 
 
