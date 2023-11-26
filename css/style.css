@@ -7,14 +7,14 @@
 
 
 body {
-    background-image: url(../images/EventBackground.png);
+    background-image: url(../images/BlueBackground.png);
     margin: auto;  
     width: 500%;
     max-width: 1300px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-size: 16px;
-    color: rgb(0, 187, 255);
+    color: rgb(3, 163, 199);
     text-decoration: none;
     flex-wrap: wrap;
     
@@ -99,11 +99,17 @@ nav a:hover {
 #HomeChildren img{
     width: 700px;
     float: right;
-    border-color: #ffffff;
-    
-   
+    border: 5px solid #ffffff;
     
 }
+
+#Charity1 img{
+    width: 600px;
+    
+    border: 5px solid #ffffff;
+    
+}
+
 
 
 
@@ -174,7 +180,7 @@ h1{
 h5{
     font-size: 25px;
     margin-top: 25px;
-     margin-bottom: 35px;
+     margin-bottom: 15px;
      
 }
 
@@ -187,7 +193,10 @@ h2{
 
 
 
-
+hr {
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-bottom: 25px;
+  }
 
 
 
