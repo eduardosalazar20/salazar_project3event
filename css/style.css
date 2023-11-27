@@ -7,7 +7,7 @@
 
 
 body {
-    
+    background-image: url(../images/BlueBackground.png);
     margin: auto;  
     width: 500%;
     max-width: 1300px;
@@ -56,7 +56,7 @@ a {
     text-decoration: none;
     font-family: 'Orbitron', sans-serif;
     font-size: 20px;
-    color:rgb(0, 187, 255);
+    color:rgb(3, 163, 199);
     margin: 45px;
     padding: 25px;
    
@@ -64,7 +64,7 @@ a {
 
 
 nav a:link {
-  color: rgb(0, 187, 255);
+  color: rgb(3, 163, 199);
     margin:  90px;
     border-radius: 60px;
     padding: 90px;
@@ -103,14 +103,31 @@ nav a:hover {
     
 }
 
+#FosterOrg{
+    
+    width: 350px;
+    float: right;
+    margin-right: 100px;
+    
+
+}
+
+
+
+
 #Charity1 img{
-    width: 600px;
+    width: 800px;
     
     border: 5px solid #ffffff;
     
 }
 
-
+#HrEvent{
+    align-items: left;
+    float: left;
+    border-color: rgb(3, 163, 199) ;
+    
+}
 
 
 p{
@@ -150,6 +167,7 @@ h1{
 
 
 
+
 .parentOne {
     width: 90%;
     margin: auto;
@@ -174,8 +192,6 @@ h1{
  }
  
  
- 
- 
 
 h5{
     font-size: 25px;
@@ -198,9 +214,6 @@ hr {
   }
 
 
-
-
-
 h3{
 
     font: 25px;
@@ -213,6 +226,13 @@ h3{
     width: 70%;
     
 }
+
+#child img{
+
+    margin-left: 94px;
+}
+
+
 
 
 
@@ -243,11 +263,24 @@ flex-wrap: wrap;
     float: right;
     display: flex;
    flex-wrap: wrap;
+   color: #ffffff;
    
    }
    
+#Buytickets{
 
+    width: 500px;
+    align-items: center;
+    margin-right: 175px;
+}
 
+#HrEvent{
+
+    width: 550px;
+    align-items: center;
+    margin-right: 25px;
+    color: #ffffff;
+}
 
 
 
