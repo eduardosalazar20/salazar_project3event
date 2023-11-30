@@ -67,133 +67,23 @@ nav a:hover {
 
 
 
-#HomeChildren img{
-    width: 700px;
-    float: right;
-    border: 5px solid #ffffff;
-    
-}
-
-#FosterOrg{
-    
-    width: 350px;
-    float: right;
-    margin-right: 100px;
-    
-
-}
-
-
-
-#HrEvent{
-    align-items: left;
-    float: left;
-    border-color: rgb(3, 163, 199) ;
-    
-}
-
-
-
-p{
-    text-decoration-color: rgb(0, 187, 255);
-    text-align: left;
-    align-items: left;
-    float: left;
-    font-family: 'Nunito', sans-serif;
-    font-size: 17px;
-    line-height: 25px;
-    margin-left: -155px;
-    padding: 90px;
-    width: 55%;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-
-
-h1{
-    text-decoration-color:rgb(0, 187, 255);
-    text-align: left;
-    align-items: left;
-    float: left;
-    font-family: 'Nunito', sans-serif;
-    font-size: 24px;
-    margin-left: -155px;
-    padding-top: 160px;
-    width: 55%;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
 
 
 
 
 
-.parentOne {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
- 
- }
- 
- .child {
-    border: #ffffff;
-    width: 20%;
-    position: relative;
-    color: #ffffff;
-    line-height: 25px;
- }
- 
- img {
- width: 130%;
- 
- }
+
+
+
+
+
  
  
 
-h5{
-    font-size: 25px;
-    margin-top: 25px;
-     margin-bottom: 15px;
-}
-
-
-h2{
-    font-size: 35px;
-    margin-top: 25px;
-     margin-bottom: 35px;
-}
 
 
 
-hr {
-    border-top: 1px solid rgb(255, 255, 255);
-    margin-bottom: 25px;
-  }
-
-
-h3{
-
-    font: 25px;
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Nunito', sans-serif;
-    border-color: white;
-    margin: 1rem auto;
-    text-align: center;
-    width: 70%;
-    
-}
-
-#child img{
-    margin-left: 94px;
-}
 
 
 

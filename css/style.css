@@ -240,6 +240,11 @@ h3{
 
 
 
+
+
+
+
+
 #SupportInfo{
 
  float: right;
@@ -248,33 +253,24 @@ flex-wrap: wrap;
 
 }
 
-.test2{
-    border-top: 5px solid #0097bf;
-    margin-top: 60px;
-    padding-top: 60px;
-    margin-left: 690px;
+#test2{
     
+    text-align: right;
 }
 
 
-#SupportUs1{
-
-    float: right;
-    display: flex;
-   flex-wrap: wrap;
    
-
-   }
-   
-   #BuyNow1{
+#BuyNow1{
 
     float: left;
     display: flex;
    flex-wrap: wrap;
    margin-left: 35px;
    color: #ffffff;
+   border-bottom:  5px solid white;
    
    }
+   
    
 #Buytickets{
 
@@ -283,13 +279,6 @@ flex-wrap: wrap;
     margin-right: 175px;
 }
 
-#HrEvent{
-
-    width: 550px;
-    align-items: center;
-    margin-right: 25px;
-    color: #ffffff;
-}
 
 .column{
 
@@ -302,19 +291,19 @@ flex-wrap: wrap;
 .merchrow{
     display: table;
     clear: both;
+    margin-right: 160px;
 }
 
 
 h4{
     text-decoration-color:rgb(255, 255, 255);
-    text-align: left;
-    align-items: left;
-    float: left;
+    text-align: right;
+    float: right;
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
     margin-right: -272px;
     padding-top: 160px;
-    width: 55%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     
