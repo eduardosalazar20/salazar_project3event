@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url(../images/MainBackground.png);
+    background-image: url(../images/SupportBackground.png);
     margin: auto;  
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -21,78 +21,50 @@ body {
 
 
 
-header{
-
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #ffffff;
-    
-}
 
 
 
 
-#nav {
+nav {
     width: 100%;
     height: 50px;
+    background-color:white;
     margin:  auto;
     display: inline-block;
     flex-wrap: wrap;
-  }
-  #nav ul {
-    color: rgb(3, 163, 199);
 
-  }
-  #nav li {
-    display: inline-block;
-    list-style: none;
-  }
-  #nav li a {
-   font-size: 18px;
-   text-transform: uppercase;
-   padding: 0px 30px;
-   color: rgb(3, 163, 199);
-   text-decoration: none;
-  }
-  #nav li a:hover {
-    transition: all 0.4s ease 0s;
-    color:darkblue;
-  }
+}
 
 
-    
+a {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color:rgb(3, 163, 199);
+    margin: 45px;
+    padding: 25px;
+   
+}
 
-#FosterLogo img{
-    
-    margin-top: 140px;
-    margin-left: 55px;
-    float: left;
-    width: 250px;
-    flex-wrap: wrap;
 
+nav a:link {
+  color: rgb(3, 163, 199);
+    margin:  90px;
+    border-radius: 60px;
+    padding: 90px;
+    text-decoration: none;
+   
+}
+
+
+nav a:hover {
+    color: rgba(124, 209, 255, 0.775);
 }
 
 
 
 
-#ChildsFuture1{
 
-    text-align: left;
-    margin-left: 48px ;
-}
-
-
-.test{
-    border-top: 5px solid #0097bf;
-    margin-top: 60px;
-    padding-top: 60px;
-    margin-right: 100px;
-    
-}
 
 
 #HomeChildren img{
@@ -113,22 +85,13 @@ header{
 
 
 
-
-
-
-#Charity1 img{
-    width: 800px;
-    
-    border: 5px solid #ffffff;
-    
-}
-
 #HrEvent{
     align-items: left;
     float: left;
     border-color: rgb(3, 163, 199) ;
     
 }
+
 
 
 p{
@@ -139,7 +102,7 @@ p{
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     line-height: 25px;
-    margin-left: -60px;
+    margin-left: -155px;
     padding: 90px;
     width: 55%;
     display: flex;
@@ -156,7 +119,7 @@ h1{
     float: left;
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
-    margin-left: -272px;
+    margin-left: -155px;
     padding-top: 160px;
     width: 55%;
     display: flex;
@@ -229,93 +192,21 @@ h3{
 }
 
 #child img{
-
     margin-left: 94px;
 }
 
 
 
 
-
-
-
-
-#SupportInfo{
-
- float: right;
- display: flex;
-flex-wrap: wrap;
-
-}
-
-.test2{
-    border-top: 5px solid #0097bf;
-    margin-top: 60px;
-    padding-top: 60px;
-    margin-left: 690px;
-    
-}
-
-
-#SupportUs1{
-
-    float: right;
-    display: flex;
-   flex-wrap: wrap;
-   
-
-   }
-   
-   #BuyNow1{
-
+#Charity1 img{
+    width: 700px;
     float: left;
-    display: flex;
-   flex-wrap: wrap;
-   margin-left: 35px;
-   color: #ffffff;
-   
-   }
-   
-#Buytickets{
-
-    width: 500px;
-    align-items: center;
-    margin-right: 175px;
-}
-
-#HrEvent{
-
-    width: 550px;
-    align-items: center;
-    margin-right: 25px;
-    color: #ffffff;
-}
-
-.column{
-
-    float: left;
-    width: 22%;
-    padding: 5px;
+    border: 5px solid #ffffff;
 }
 
 
-.merchrow{
-    display: table;
-    clear: both;
-}
 
 
-h4{
-    text-decoration-color:rgb(255, 255, 255);
-    text-align: left;
-    align-items: left;
-    float: left;
-    font-family: 'Nunito', sans-serif;
-    font-size: 24px;
-    margin-right: -272px;
-    padding-top: 160px;
-    width: 55%;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+
+
+
