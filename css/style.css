@@ -281,7 +281,7 @@ h3{
     float: right;
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
-    margin-right: -272px;
+    margin-right: -262px;
     padding-top: 160px;
     width: 45%;
     display: flex;
@@ -322,9 +322,10 @@ h6{
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     line-height: 25px;
-    margin-left: -80px;
+    margin-right: 12px;
+
     padding: 90px;
-    width: 45%;
+    width: 44%;
     display: flex;
     flex-wrap: wrap;
     font-weight: 100;
