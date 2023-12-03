@@ -219,14 +219,17 @@ hr {
 
 h3{
 
-    font: 25px;
-    margin: 10px;
-    padding: 10px;
+    font: 15px;
+    
+    padding: 1px;
+    
     font-family: 'Nunito', sans-serif;
     border-color: white;
     margin: 1rem auto;
     text-align: center;
     width: 70%;
+    font-weight: 500;
+    font-family: 'Titan One', sans-serif;
     
 }
 
