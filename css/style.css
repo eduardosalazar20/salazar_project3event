@@ -67,6 +67,10 @@ header{
   }
 
 
+
+
+
+
     
 
 #FosterLogo img{
@@ -76,9 +80,7 @@ header{
     float: left;
     width: 250px;
     flex-wrap: wrap;
-
 }
-
 
 
 .test{
@@ -133,9 +135,6 @@ img {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-
-
-
 }
 
 #Day1 img{
@@ -158,7 +157,6 @@ p{
     flex-wrap: wrap;
     font-weight: 100;
 }
-
 
 
 h1{
