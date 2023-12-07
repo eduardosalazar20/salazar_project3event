@@ -54,7 +54,7 @@ header{
   #nav li a {
    font-size: 18px;
    text-transform: uppercase;
-   padding: 0px 30px;
+   padding: 0px 60px;
    color: rgb(3, 163, 199);
    text-decoration: none;
   }
@@ -69,7 +69,7 @@ header{
 #FosterLogo img{
     
     margin-top: 140px;
-    margin-left: 55px;
+    margin-left: 25px;
     float: left;
     width: 250px;
     flex-wrap: wrap;
@@ -78,19 +78,12 @@ header{
 
 
 
-
-#ChildsFuture1{
-
-    text-align: left;
-    margin-left: 48px ;
-}
-
-
 .test{
     border-top: 5px solid #0097bf;
     margin-top: 60px;
     padding-top: 60px;
     margin-right: 100px;
+    padding-left: 25px;
     
 }
 
@@ -112,7 +105,10 @@ header{
 }
 
 
-
+img {
+    width: 130%; 
+    
+    }
 
 
 
@@ -128,6 +124,17 @@ header{
     float: left;
     border-color: rgb(3, 163, 199) ;
     
+
+    animation-name: Buy2;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+
 }
 
 
@@ -169,6 +176,10 @@ h1{
 
 
 
+
+
+
+
 .parentOne {
     width: 90%;
     margin: auto;
@@ -181,17 +192,14 @@ h1{
  
  .child {
     border: #ffffff;
-    width: 20%;
+    
     position: relative;
     color: #ffffff;
     line-height: 25px;
     font-weight: 100;
  }
  
- img {
- width: 130%;
  
- }
  
  
  h5{
@@ -220,7 +228,6 @@ hr {
 h3{
 
     font: 15px;
-    
     padding: 1px;
     
     font-family: 'Nunito', sans-serif;
@@ -233,10 +240,7 @@ h3{
     
 }
 
-#child img{
 
-    margin-left: 94px;
-}
 
 
 
@@ -257,9 +261,6 @@ h3{
     text-align: right;
 }
 
-
-
-
 #BuyNow1{
 
     float: left;
@@ -271,9 +272,17 @@ h3{
    font-size: 25px;
    font-weight:bold;
     margin-top: 105px;
-     margin-left: -665px;
-     padding-bottom: 19px;
-     border-bottom: 5px solid rgb(255, 255, 255);
+    margin-left: -665px;
+    padding-bottom: 19px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+
+    animation-name: Buy1;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
    
    }
    
@@ -333,4 +342,29 @@ h6{
     flex-wrap: wrap;
     font-weight: 100;
     
+}
+
+
+@keyframes Buy1{
+    from{
+        color: #ffffff;
+    }
+    to{
+        color: rgb(255, 200, 0);
+
+}
+
+}
+
+
+@keyframes Buy2{
+    50% {
+        transform: scale(1) ;
+     }
+     
+     100%{
+        transform: scale(1.3)
+     }
+
+
 }
