@@ -9,8 +9,10 @@
 body {
     background-image: url(../images/MainBackground.png);
     margin: auto;  
-    font-family: 'Nunito', sans-serif;
+    
     text-align: center;
+    font-family: 'Lilita One', sans-serif;
+         
     font-size: 16px;
     color: rgb(3, 163, 199);
     text-decoration: none;
@@ -53,6 +55,7 @@ header{
   }
   #nav li a {
    font-size: 18px;
+   font-family: 'Lilita One', sans-serif;
    text-transform: uppercase;
    padding: 0px 60px;
    color: rgb(3, 163, 199);
@@ -123,8 +126,6 @@ img {
     align-items: left;
     float: left;
     border-color: rgb(3, 163, 199) ;
-    
-
     animation-name: Buy2;
     animation-delay: 1s;
     animation-direction: forwards;
@@ -137,6 +138,10 @@ img {
 
 }
 
+#Day1 img{
+
+    padding-right: 34px;
+}
 
 p{
     text-decoration-color: rgb(0, 187, 255);
@@ -164,6 +169,7 @@ h1{
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
     margin-left: -272px;
+    font-family: 'Lilita One', sans-serif;
     padding-top: 160px;
     width: 55%;
     display: flex;
@@ -180,23 +186,15 @@ h1{
 
 
 
-.parentOne {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
- 
- }
+
  
  .child {
     border: #ffffff;
-    
     position: relative;
     color: #ffffff;
     line-height: 25px;
     font-weight: 100;
+    
  }
  
  
@@ -204,6 +202,7 @@ h1{
  
  h5{
     font-size: 25px;
+    font-family: 'Lilita One', sans-serif;
     margin-top: 25px;
      margin-bottom: 15px;
      margin-left: -295px;
@@ -213,6 +212,7 @@ h1{
 
 h2{
     font-size: 35px;
+    font-family: 'Lilita One', sans-serif;
     margin-top: 25px;
      margin-bottom: 35px;
 }
@@ -270,7 +270,7 @@ h3{
    margin-top: 45px;
    color: #ffffff;
    font-size: 25px;
-   font-weight:bold;
+   font-family: 'Lilita One', sans-serif;
     margin-top: 105px;
     margin-left: -665px;
     padding-bottom: 19px;
@@ -291,7 +291,7 @@ h3{
     text-decoration-color:rgb(255, 255, 255);
     text-align: right;
     float: right;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lilita One', sans-serif;
     font-size: 24px;
     margin-right: -262px;
     padding-top: 160px;
@@ -350,7 +350,7 @@ h6{
         color: #ffffff;
     }
     to{
-        color: rgb(255, 200, 0);
+        color: rgb(0, 225, 255);
 
 }
 
@@ -366,5 +366,55 @@ h6{
         transform: scale(1.3)
      }
 
+
+}
+
+
+@media (max-width: 1231px){
+    
+    .HomeChildren img,
+    .header,
+    .nav,
+    .test,
+    .HomeChildren,
+    .body,
+    .FosterLogo{
+        font-size: 1.5rem;
+        width:1231px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+}
+
+
+@media (max-width: 925px){
+
+    .header,
+    .nav,
+    .test,
+    .HomeChildren,
+    .body
+    .FosterLogo{
+        font-size: 1.2rem;
+        width:1231px;
+    }
+
+}
+
+
+@media (max-width: 750px){
+
+    .header,
+    .nav,
+    .test,
+    .HomeChildren,
+    .body
+    .FosterLogo{
+        font-size: .9rem;
+        width:1231px;
+    }
 
 }

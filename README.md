@@ -59,6 +59,8 @@ https://fonts.adobe.com/search?query=Alternate+Gothic+No3+D
 
 https://fonts.adobe.com/fonts/marvin
 
+https://fonts.google.com/specimen/Lilita+One?classification=Display&stroke=Sans+Serif
+
 
 Stock Images placeholders:
 
