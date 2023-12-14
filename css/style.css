@@ -165,7 +165,7 @@ h1{
     align-items: left;
     float: left;
     font-family: 'Nunito', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     margin-left: -272px;
     font-family: 'Lilita One', sans-serif;
     padding-top: 160px;
@@ -192,7 +192,7 @@ h1{
     color: #ffffff;
     line-height: 25px;
     font-weight: 100;
-    
+
  }
  
  
@@ -239,7 +239,12 @@ h3{
 }
 
 
-
+#DaysEvent{
+    font-family: 'Lilita One', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 29px;
+}
 
 
 
@@ -272,7 +277,7 @@ h3{
     margin-top: 105px;
     margin-left: -665px;
     padding-bottom: 19px;
-    border-bottom: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(3, 163, 199);
 
     animation-name: Buy1;
     animation-delay: 1s;
@@ -386,10 +391,10 @@ h6{
 
 @keyframes Buy1{
     from{
-        color: #ffffff;
+        color:rgb(3, 163, 199);
     }
     to{
-        color: rgb(0, 225, 255);
+        color: rgb(0, 191, 255);
 
 }
 
