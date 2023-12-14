@@ -314,6 +314,8 @@ h3{
     float: left;
     width: 22%;
     padding: 5px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 
@@ -321,6 +323,9 @@ h3{
     display: table;
     clear: both;
     margin-right: 160px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: -20px;
 }
 
 
@@ -339,8 +344,44 @@ h6{
     display: flex;
     flex-wrap: wrap;
     font-weight: 100;
+}
+
+
+#Hat{
+
+    margin-right:-90px;
+    padding-top: -110px;
+
     
 }
+
+
+
+
+#Hoodie{
+
+    margin-right:-90px;
+    padding-top: -110px;
+    
+
+    
+}
+
+
+
+
+#Price{
+
+    margin-right: -107px;
+    padding-top: -110px;
+   
+
+    
+}
+
+
+
+
 
 
 @keyframes Buy1{
